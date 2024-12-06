@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Little Note Just For You</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            color: #333;
+        }
+        .card {
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            padding: 40px;
+            max-width: 500px;
+            animation: appear 1.5s ease-out;
+        }
+        h1 {
+            color: #ff6b6b;
+            margin-bottom: 20px;
+        }
+        .message {
+            font-size: 1.2em;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        @keyframes appear {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        .heart {
+            color: #ff6b6b;
+            font-size: 50px;
+            animation: pulse 1s infinite alternate;
+        }
+        @keyframes pulse {
+            from { transform: scale(1); }
+            to { transform: scale(1.2); }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="heart">❤️</div>
+        <h1>Dear My Lovely Wife</h1>
+        <p class="message">
+            Every moment with you is special. 
+            You bring so much joy and love into my life. 
+            I'm grateful for you, always and forever.
+        </p>
+    </div>
+</body>
+</html>
